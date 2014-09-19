@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/beaconNumBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Check Current Beacon Number !"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/beaconNumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Current Beacon Count  : 0 ."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fingerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Collect Finger Data!" />
+
+    <EditText
+        android:id="@+id/fingerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Please Insert Cell Number! " />
+
+</LinearLayout>
